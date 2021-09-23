@@ -22,8 +22,8 @@ public class CtoFTester.java{
     but opening in terminal requires some value for variable be coded
     this allows the user to test various values for variables
     */
-    celsiusToFahrenheit(inCelsius);
-    fahrenheitToCelsius(inFahrenheit);
+    System.out.println(celsiusToFahrenheit(inCelsius));
+    System.out.println(fahrenheitToCelsius(inFahrenheit));
   }
   public static double celsiusToFahrenheit(double celsius){
     return (celsius * (9 / 5)) + 32;
@@ -33,6 +33,6 @@ public class CtoFTester.java{
   public static double fahrenheitToCelsius(double fahrenheit){
     return ((fahrenheit - 32) * (5 / 9));
     // c = (f - 32) * 5/9
-    // reverse the celsius formula to obtain this formula 
+    // reverse the celsius formula to obtain this formula
   }
 }
