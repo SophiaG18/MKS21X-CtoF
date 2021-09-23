@@ -22,8 +22,8 @@ public class CtoFTester{
     but opening in terminal requires some value for variable be coded
     this allows the user to test various values for variables
     */
-    System.out.println(celsiusToFahrenheit(inCelsius));
-    System.out.println(fahrenheitToCelsius(inFahrenheit));
+    System.out.println(celsiusToFahrenheit(inCelsius) + " F");
+    System.out.println(fahrenheitToCelsius(inFahrenheit) + " C");
   }
   public static double celsiusToFahrenheit(double temp){
     return ((temp * (9.0 / 5.0)) + 32.0);
