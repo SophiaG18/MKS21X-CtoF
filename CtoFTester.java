@@ -30,4 +30,9 @@ public class CtoFTester.java{
     // f = (9/5)c + 32
     // formula taken from earlier summer exercises
   }
+  public static double fahrenheitToCelsius(double fahrenheit){
+    return ((fahrenheit - 32) * (5 / 9));
+    // c = (f - 32) * 5/9
+    // reverse the celsius formula to obtain this formula 
+  }
 }
