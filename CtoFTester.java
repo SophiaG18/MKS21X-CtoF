@@ -7,7 +7,7 @@ The functions should also be a double (returns double)
 
 import java.util.Scanner;
 
-public class CtoFTester.java{
+public class CtoFTester{
   public static void main(String[] args){
     double inCelsius;
     double inFahrenheit;
@@ -25,13 +25,13 @@ public class CtoFTester.java{
     System.out.println(celsiusToFahrenheit(inCelsius));
     System.out.println(fahrenheitToCelsius(inFahrenheit));
   }
-  public static double celsiusToFahrenheit(double celsius){
-    return (celsius * (9 / 5)) + 32;
+  public static double celsiusToFahrenheit(double temp){
+    return ((temp * (9.0 / 5.0)) + 32.0);
     // f = (9/5)c + 32
     // formula taken from earlier summer exercises
   }
-  public static double fahrenheitToCelsius(double fahrenheit){
-    return ((fahrenheit - 32) * (5 / 9));
+  public static double fahrenheitToCelsius(double temp){
+    return ((temp - 32.0) * (5.0 / 9.0));
     // c = (f - 32) * 5/9
     // reverse the celsius formula to obtain this formula
   }
