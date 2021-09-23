@@ -25,4 +25,9 @@ public class CtoFTester.java{
     celsiusToFahrenheit(inCelsius);
     fahrenheitToCelsius(inFahrenheit);
   }
+  public static double celsiusToFahrenheit(double celsius){
+    return (celsius * (9 / 5)) + 32;
+    // f = (9/5)c + 32
+    // formula taken from earlier summer exercises
+  }
 }
